@@ -1,0 +1,265 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color:black;
+
+}
+#h1{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    font-size: 10mm;
+    margin-top: 3%;
+    animation-name: h1;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes h1{
+    0%{
+        color: aqua;
+
+    }
+    10%{
+        color: rgb(0, 255, 13);
+    }
+    50%{
+        color:crimson;
+    }
+    80%{
+        color: rgb(42, 89, 165);
+    }
+    100%{
+        color:aqua;
+    }
+}
+
+.material-icons{
+    
+ 
+    color:aqua;
+}
+#image-container{
+width:80%;
+height:100%;
+margin-left: 6%;
+background-color: black;
+position: absolute;
+margin-top: 4%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+box-shadow: 2px 8px 10px 10px rgb(130, 20, 220);
+cursor: pointer;
+justify-content: space-evenly;
+}
+.showro{
+   
+    transition-delay: 2s;
+    transition-duration: 2s;
+    transform: rotate(360deg);
+    animation-name: insideboxanim;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes insideboxanim{
+    0%{
+        box-shadow: 2px 5px 8px 8px aqua;
+    }
+    30%{
+        box-shadow: 2px 5px 8px 8px rgb(255, 0, 106);
+    }
+    50%{
+        box-shadow: 2px 5px 8px 8px rgb(0, 183, 255);
+    }
+    80%{
+        box-shadow: 2px 5px 8px 8px rgb(255, 0, 106);
+    }
+    100%{
+        box-shadow: 2px 5px 8px 8px rgb(38, 255, 0);
+    }
+}
+
+.anim{
+    animation-name: boxshad;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes boxshad{
+    0%{
+        box-shadow: 2px 8px 10px 10px aqua;
+    }
+    30%{
+        box-shadow: 2px 8px 10px 10px rgb(255, 0, 106);
+    }
+    50%{
+        box-shadow: 2px 8px 10px 10px rgb(0, 183, 255);
+    }
+    80%{
+        box-shadow: 2px 8px 10px 10px rgb(255, 0, 106);
+    }
+    100%{
+        box-shadow: 2px 8px 10px 10px rgb(38, 255, 0);
+    }
+}
+#box{
+    width:30%;
+    height:30%;
+    margin:15px;
+  cursor: pointer;
+    background-color:black;
+  
+}
+.box1{
+    background-image: url(myman.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.box2{
+    background-image: url(smoke.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.box3{
+    background-image: url(neon_art.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.box4{
+    background-image: url(wiz.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.box6{
+    background-image: url(car.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.box7{
+    background-image: url(planet_galaxy.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.box8{
+    background-image: url(neon_smile.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.box9{
+    background-image: url(boystand.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.box10{
+    background-image: url(sky_stars.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.footer{
+    width:90%;
+    height:10%;
+    background-color: black;
+    position: absolute;
+    margin-top: 55%;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 7mm;
+    animation-name: h2;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-duration: 4s;
+}
+@keyframes h2{
+    50%{
+        color: aqua;
+
+    }
+  
+   
+    100%{
+        color:white;
+    }
+}
+@media screen and (min-width:380px){
+    #box{
+        width:30%;
+        height:25%;
+        margin:15px;
+        margin-left: -2%;
+      cursor: pointer;
+        background-color:black;
+      
+    }
+    #image-container{
+        width:90%;
+    
+    }
+}
+@media screen and (min-width:360px){
+    #box{
+        width:30%;
+        height:25%;
+        margin:10px;
+        margin-left: -1%;
+      cursor: pointer;
+        background-color:black;
+      
+    }
+    .footer{
+        
+        background-color: black;
+        position: relative;
+        margin-top: 130%;
+    }
+    #image-container{
+        width:80%;
+        margin-left: 7%;
+    
+    }
+}
+@media screen and (min-width:430px){
+    .footer{
+        width:90%;
+        height:10%;
+        background-color: black;
+        position: relative;
+        margin-top: 130%;
+    
+    }
+    #box{
+        width:30%;
+        height:25%;
+        margin:10px;
+        margin-left: -1%;
+      cursor: pointer;
+        background-color:black;
+      
+    }
+}
+@media screen and (min-width:800px){
+    .footer{
+        width:90%;
+        height:10%;
+        background-color: black;
+        position: relative;
+        margin-top: 60%;
+    
+    }
+    #box{
+        width:30%;
+        height:25%;
+        margin:10px;
+        margin-left: -1%;
+      cursor: pointer;
+        background-color:black;
+      
+    }
+}
